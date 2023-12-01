@@ -1,0 +1,579 @@
+
+
+.logo{
+    width: 200px;
+    margin-top: -10px;
+}
+
+.logo_container{
+    margin-top: -20px;
+}
+
+.download{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    width: 275px;
+    padding: 15px;
+    border: 5px solid  #FF7300;
+    border-radius: 15px;
+}
+
+.gradient_styling{
+    background: linear-gradient(to bottom, #ffa600, #ff7300);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-weight: bolder; 
+    font-size: 80px;
+
+}
+#home_page_msg{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+
+}
+
+#social_download{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.apple_store{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.play_store{
+    width: 60px;
+    margin-left: 20px;
+    
+}
+
+.store_cont{
+    justify-content: space-around;
+}
+.insta{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.tiktok{
+    width:30px
+}
+
+.socials{
+    position: absolute;
+    right: 0;
+    top: 110px;
+    padding: 10px;
+    margin-right: 10px;
+}
+/* #ffa600, #ff7300 */
+
+.col-12{
+    background-color: black;
+    margin-top: -30px;
+    box-shadow: 0px 10px 10px -10px white, 0px -10px 10px -10px white ;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+/* .login-screen-cont img{
+    
+} */
+
+@media only screen and (max-device-width: 1024px){
+    body{
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container-fluid{
+        padding: 0px;
+    }
+
+    .login-screen-cont img{
+        width: 200px;
+    }
+
+    .all-in-one-cont{
+        width: 300px;
+    }
+
+    .gradient_styling{
+        font-size: 60px;
+    }
+
+    #home_page_msg{
+        font-size: 40px;
+    }
+
+    .download{
+        width: 250px;
+        margin-top: 60px;
+    }
+
+    .download h5{
+        font-size: 25px;
+    }
+    .store_cont img{
+        width: 50px;
+    }
+
+    #business{
+        font-size: 40px;
+    }
+
+    #business_download{
+        width: 250px;
+        
+    }
+
+    #business_download h5{
+        font-size: 20px;
+    }
+
+    #business_msg{
+        font-size: 25px;
+    }
+
+    #business_img{
+        width: 400px;
+    }
+
+    .tiktok{
+        width: 30px;
+    }
+
+    .insta{
+        width: 30px;
+    }
+
+    #closet_img{
+        width: 400px;
+    }
+
+    #virtual_title{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    #virtual_msg{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #virtual_download{
+        margin-bottom: 10px;
+    }
+
+
+    #social_title{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    #social_img{
+        width: 400px;
+    }
+
+    #social_msg{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #social_download{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    #discovery_gradient{
+        font-size: 35px;
+    }
+
+    #discovery_img{
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .discovery_msg{
+        font-size: 22px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-device-width: 850px){
+    body{
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container-fluid{
+        padding: 0px;
+    }
+
+    .login-screen-cont img{
+        width: 200px;
+    }
+    .all-in-one-cont{
+        width: 200px;
+    }
+    .gradient_styling{
+        font-size: 40px;
+    }
+
+    #home_page_msg{
+        font-size: 30px;
+    }
+
+    .download{
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    .download h5{
+        font-size: 25px;
+    }
+    .store_cont img{
+        width: 50px;
+    }
+
+    #business{
+        font-size: 40px;
+    }
+
+    #business_download{
+        width: 250px;
+        
+    }
+
+    #business_download h5{
+        font-size: 20px;
+    }
+
+    #business_msg{
+        font-size: 20px;
+    }
+
+    #business_img{
+        width: 300px;
+    }
+
+    .tiktok{
+        width: 30px;
+    }
+
+    .insta{
+        width: 30px;
+    }
+
+    #closet_img{
+        width: 300px;
+    }
+
+    #virtual_title{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    #virtual_msg{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    #virtual_img{
+        width: 300px;
+    }
+
+    #social_title{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    #social_img{
+        width: 300px;
+    }
+
+    #social_msg{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    #social_download{
+        margin-left: -10px;
+        margin-top: 30px;
+    }
+
+    #discovery_gradient{
+        font-size: 35px;
+    }
+
+    #discovery_img{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .discovery_msg{
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-device-width: 550px){
+    body{
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container-fluid{
+        padding: 0px;
+    }
+
+    .login-screen-cont img{
+        width: 120px;
+    }
+    .all-in-one-cont{
+        width: 200px;
+    }
+
+    .gradient_styling{
+        font-size: 40px;
+    }
+
+    #home_page_msg{
+        font-size: 30px;
+    }
+
+    .download{
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    #social_download{
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #virtual_download{
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .download h5{
+        font-size: 15px;
+    }
+    .store_cont img{
+        width: 30px;
+    }
+
+    #business{
+        font-size: 25px;
+    }
+
+    #business_download{
+        width: 150px;
+        
+    }
+
+    #business_download h5{
+        font-size: 15px;
+    }
+
+    #business_msg{
+        font-size: 12px;
+    }
+
+    #business_img{
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .tiktok{
+        width: 20px;
+    }
+
+    .insta{
+        width: 20px;
+    }
+
+    #closet_img{
+        width: 200px;
+    }
+
+    #virtual_title{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    #virtual_msg{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    #social_title{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    #social_img{
+        width: 200px;
+    }
+
+    #social_msg{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    #discovery_gradient{
+        font-size: 25px;
+    }
+
+    #discovery_img{
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .discovery_msg{
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 360px){
+    body{
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container-fluid{
+        padding: 0px;
+    }
+
+    .login-screen-cont img{
+        width: 100px;
+    }
+    .all-in-one-cont{
+        width: 200px;
+    }
+
+    .gradient_styling{
+        font-size: 40px;
+    }
+
+    #home_page_msg{
+        font-size: 30px;
+    }
+
+    .download{
+        width: 150px;
+        margin-top: 40px;
+    }
+
+    #social_download{
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #virtual_download{
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .download h5{
+        font-size: 15px;
+    }
+    .store_cont img{
+        width: 30px;
+    }
+
+    #business{
+        font-size: 25px;
+    }
+
+    #business_download{
+        width: 150px;
+        
+    }
+
+    #business_download h5{
+        font-size: 15px;
+    }
+
+    #business_msg{
+        font-size: 12px;
+    }
+
+    #business_img{
+        width: 175px;
+        margin-left: 10px;
+    }
+
+    .tiktok{
+        width: 20px;
+    }
+
+    .insta{
+        width: 20px;
+    }
+
+    #closet_img{
+        width: 175px;
+    }
+
+
+    #virtual_title{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    #virtual_msg{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    #social_title{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    #social_img{
+        width: 180px;
+    }
+
+    #social_msg{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    #discovery_gradient{
+        font-size: 25px;
+    }
+
+    #discovery_img{
+        width: 175px;
+        margin-left: 10px;
+    }
+
+    .discovery_msg{
+        font-size: 12px;
+    }
+
+
+}
